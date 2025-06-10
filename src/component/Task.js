@@ -3,9 +3,9 @@ import {FaTimes} from 'react-icons/fa'
 const Task = ({task, onDelete, onToggle}) => {
   return (
     <div className={`task ${task.reminder ? 'reminder' : ''}`} onDoubleClick={ () => onToggle(task.id)}>
-      <h3>{task.text} < FaTimes style={{ marginLeft: '20%', color: 
+      <h3>{task.text} <div className='Fa'>< FaTimes style={{  color: 
         'red', cursor: 'pointer', }} 
-        onClick={() => onDelete(task.id)} /> </h3>
+        onClick={() => onDelete(task.id)} /> </div> </h3>
       <p>{task.day}</p>
     </div>
   )

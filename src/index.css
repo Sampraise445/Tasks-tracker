@@ -70,12 +70,15 @@ transform: scale(0.98);
 }
 
 .task h3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-betweenk;
-  /* margin-left: 5%; */
+margin: 0;
  
 
+}
+.Fa {
+   display: flex;
+  align-items: center;
+  justify-content: space-betweenk;
+  margin-left: 95%;
 }
 
 .add-form{
